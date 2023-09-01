@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Dice game</title>
+</head>
+<body>
+    <div class="main">
+        <section class="gaymer gaymer0 gaymer-active">
+            <h2 id="gaymer-name1" class="gaymer-name">player 1</h2>
+            <p id="score0" class="score1 score-color">0</p>
+            <div class="now">
+                <p class="now-label">now</p>
+                <p class="now-score" id="now-score0">0</p>
+            </div>
+        </section>
+        <section class="gaymer gaymer1">
+            <h2 id="gaymer-name2" class="gaymer-name">player 2</h2>
+            <p id="score1" class="score2 score-color">0</p>
+            <div class="now">
+                <p class="now-label">now</p>
+                <p class="now-score" id="now-score1">0</p>
+            </div>
+        </section>
+        <div class="buttons">
+            
+                <button id="newGame" class="btn btn-new">new game</button>
+                <img id="dice" src="./dice-6.png" alt="dice" class="dice" width="60" height="60">
+                <button id="roll" class="btn btn-roll">roll dice</button>
+                <button id="hold" class="btn btn-hold">hold</button>
+            
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
