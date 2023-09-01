@@ -41,6 +41,7 @@ body {
     padding: 9rem;
 }
 .main {
+    position: relative;
     border-radius: 1rem;
     background-color: bisque;
     display: flex;
@@ -89,17 +90,18 @@ body {
     box-shadow: 1rem 1rem 3rem rgba(0, 0, 1, 1.15);
 }
 .btn-hold {
-    top: 63rem;
+    top: 43rem;
 }
 .btn-roll {
-    top: 55rem;
+    top: 35rem;
 }
 .btn-new {
-    top: 20rem;
+    top: 8rem;
 }
 .dice {
     position: absolute;
     left: 50%;
+    top: 25rem;
     transform: translateX(-50%);
 }
 .btn:focus {
